@@ -250,3 +250,9 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+/packages
+/cn.lovelong.FreeCodeCamp/obj
+/cn.lovelong.FreeCodeCamp/bin
+/cn.lovelong.FreeCodeCamp.BLL/obj
+/cn.lovelong.FreeCodeCamp.DAL/obj
+/cn.lovelong.FreeCodeCamp.Tests/obj
