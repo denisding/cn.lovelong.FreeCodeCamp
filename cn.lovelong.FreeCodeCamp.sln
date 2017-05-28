@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.lovelong.FreeCodeCamp.BL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.lovelong.FreeCodeCamp.Model", "cn.lovelong.FreeCodeCamp.Model\cn.lovelong.FreeCodeCamp.Model.csproj", "{78C177D4-B156-46C6-9D83-84373AD79E3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cn.lovelong.Common", "cn.lovelong.Common\cn.lovelong.Common.csproj", "{D3457578-C04A-47F8-A545-575822C3E74C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{78C177D4-B156-46C6-9D83-84373AD79E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78C177D4-B156-46C6-9D83-84373AD79E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78C177D4-B156-46C6-9D83-84373AD79E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3457578-C04A-47F8-A545-575822C3E74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3457578-C04A-47F8-A545-575822C3E74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3457578-C04A-47F8-A545-575822C3E74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3457578-C04A-47F8-A545-575822C3E74C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

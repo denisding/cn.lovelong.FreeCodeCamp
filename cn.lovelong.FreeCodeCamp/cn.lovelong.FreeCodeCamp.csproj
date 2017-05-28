@@ -184,6 +184,7 @@
     <Compile Include="Controllers\FamousQuotesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\WeatherController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -251,6 +252,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Weather\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -261,6 +263,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\cn.lovelong.Common\cn.lovelong.Common.csproj">
+      <Project>{d3457578-c04a-47f8-a545-575822c3e74c}</Project>
+      <Name>cn.lovelong.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\cn.lovelong.FreeCodeCamp.BLL\cn.lovelong.FreeCodeCamp.BLL.csproj">
       <Project>{ca8fe116-a54f-4009-8a52-9c0054ebdf19}</Project>
       <Name>cn.lovelong.FreeCodeCamp.BLL</Name>
